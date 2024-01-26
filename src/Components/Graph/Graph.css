@@ -1,0 +1,31 @@
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+button {
+    background: linear-gradient(to right, #6991e8, #94eb5e);
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+
+    &:hover {
+        color: #def8c9;
+    }
+}
+
+.btn-download {
+    margin-top: 10px;
+    bottom: 20px;
+    right: 50px;
+
+}
+
+.btn-random {
+    margin-top: 10px;
+    bottom: 20px;
+    left: 50px;
+
+
+}
